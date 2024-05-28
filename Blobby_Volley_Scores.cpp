@@ -31,6 +31,5 @@ int main(){
         }
         cout<<Alice<<" "<<Bob<<endl;
     }
-
     return 0;
 }
