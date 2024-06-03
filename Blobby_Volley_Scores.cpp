@@ -13,9 +13,24 @@ int main(){
     ll t;
     cin>>t;
     while(t--){
-        
-
-
+        ll n;
+        string str;
+        cin>>n>>str;
+        ll Alice = 0;
+        ll Bob = 0;
+        if(str[0] == 'A'){
+            Alice++;
+        }
+        for(int i=0; i<n-1;i++){
+            if(str[i] == 'A' && str[i+1] == 'A'){
+                Alice++;
+            }
+            else if(str[i] == 'B' && str[i+1]=='B'){
+                Bob++;
+            }
+        }
+        cout<<Alice<<" "<<Bob<<endl;
     }
+
     return 0;
 }
