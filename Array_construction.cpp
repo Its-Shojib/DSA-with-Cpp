@@ -15,8 +15,7 @@ int main()
     cout.tie(NULL);
     ll t;
     cin >> t;
-    while (t--)
-    {
+    while (t--){
         ll x;
         cin >> x;
         for (int i = 1; i <= x; i++){
