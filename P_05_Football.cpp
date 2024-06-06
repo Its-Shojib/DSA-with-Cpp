@@ -1,4 +1,4 @@
-//Its_Shojib
+// Its_Shojib
 #include <bits/stdc++.h>
 using namespace std;
 #define mod 1000000007
@@ -8,14 +8,29 @@ using namespace std;
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
 long long fact[N];
-int main(){
-    ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-    ll t;
-    cin>>t;
-    while(t--){
-        
-
-
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    string str;
+    cin >> str;
+    int n = str.size();
+    int cnt = 0;
+    for (int i = 0; i < n - 1; i++)
+    {
+        if (str[i] == str[i + 1])
+        {
+            cnt++;
+            if (cnt >= 7)
+                break;
+        }
+        else
+            cnt = 0;
     }
+    if (cnt >= 7)
+        yes;
+    else
+        no;
     return 0;
 }
