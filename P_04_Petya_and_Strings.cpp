@@ -16,11 +16,8 @@ int main()
     string s1, s2;
     cin >> s1 >> s2;
     int res = strcasecmp(s1.c_str(), s2.c_str());
-    if (res > 0)
-        cout << 1;
-    else if (res < 0)
-        cout << -1;
-    else
-        cout << 0;
+    if (res > 0) cout << 1;
+    else if (res < 0) cout << -1;
+    else cout << 0;
     return 0;
 }
