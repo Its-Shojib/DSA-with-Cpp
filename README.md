@@ -41,6 +41,6 @@ I welcome contributions from fellow enthusiasts! If you have any suggestions, im
 
 - Let's connect and learn together! Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/md-shojib-hossain) to discuss DSA, programming, or anything tech-related.
 
-<!-- - I am also available on [Facebook](https://www.facebook.com/mdshojib.hossain.7927) Connect me! -->
+- I am also available on [Facebook](https://www.facebook.com/mdshojib.hossain.7927) Connect me!
 
-Happy coding! 🚀
+Happy coding! 
