@@ -26,13 +26,15 @@ int main()
             if ((str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'))
             {
                 ans++;
-                if (ans == 3) break;
+                if (ans == 3)
+                    break;
             }
-            else{
+            else
+            {
                 ans = 0;
             }
         }
-        if (ans ==3)
+        if (ans == 3)
         {
             cout << "Happy" << endl;
         }
