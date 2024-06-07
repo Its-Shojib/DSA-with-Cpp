@@ -29,17 +29,23 @@ int main()
                 charlsen += 2;
             else if (str[i] == 'N')
                 chef += 2;
-            else if (str[i] == 'D'){
+            else if (str[i] == 'D')
+            {
                 chef += 1;
                 charlsen += 1;
-            }     
+            }
         }
-        if (charlsen > chef){
-            cout <<x*60<<endl;
-        }else if (chef>charlsen){
-            cout <<x*40<<endl;
-        }else{
-            cout <<x*55<<endl;
+        if (charlsen > chef)
+        {
+            cout << x * 60 << endl;
+        }
+        else if (chef > charlsen)
+        {
+            cout << x * 40 << endl;
+        }
+        else
+        {
+            cout << x * 55 << endl;
         }
     }
     return 0;
