@@ -34,9 +34,13 @@ I welcome contributions from fellow enthusiasts! If you have any suggestions, im
 - [GeeksforGeeks](https://www.geeksforgeeks.org/): A comprehensive resource for learning data structures and algorithms.
 - [LeetCode](https://leetcode.com/): A platform for practicing coding problems, particularly helpful for interview preparation.
 - [cplusplus.com](http://www.cplusplus.com/): A reference for C++ language syntax, standard libraries, and more.
+- [CodeChef.com](https://www.codechef.com/users/iam_shojib): A platform for practiching problem based on DSA and Attend Contest and More.
+- [Codeforces.com](https://codeforces.com/profile/Its_Shojib): A platform Where show Coding Skill and Get Ratings...
 
 ## Connect with Me
 
-Let's connect and learn together! Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/md-shojib-hossain) to discuss DSA, programming, or anything tech-related.
+- Let's connect and learn together! Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/md-shojib-hossain) to discuss DSA, programming, or anything tech-related.
+
+<!-- - I am also available on [Facebook](https://www.facebook.com/mdshojib.hossain.7927) Connect me! -->
 
 Happy coding! 🚀
