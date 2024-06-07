@@ -28,6 +28,5 @@ int main(){
     }else{
         cout<<number<<endl;
     }
-    
     return 0;
 }
