@@ -19,6 +19,7 @@ int main(){
         cin >> a[i];
         index[a[i]]++;
     }
+    
     for(ll i=0;i<n;i++){
         cin >> b[i];
     }
