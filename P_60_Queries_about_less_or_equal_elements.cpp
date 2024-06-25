@@ -30,5 +30,6 @@ int main(){
         cout<<ans<<" ";
         ans=0;
     }
+    
     return 0;
 }
