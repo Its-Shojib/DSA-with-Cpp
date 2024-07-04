@@ -15,7 +15,8 @@ int main(){
     while(t--){
     ll x,y,z;
     cin>>x>>y>>z;
-    if((x ==0 && y ==0) || (x==0 && z ==0) || (y==0 && z==0)) yes;
+    if((x ==0 && y ==0) || (x==0 && z ==0) || (y==0 && z==0))
+    yes;
     else no;
     }
     return 0;
