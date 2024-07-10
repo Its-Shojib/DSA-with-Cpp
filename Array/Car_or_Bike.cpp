@@ -18,8 +18,6 @@ int main(){
         if(x>y) no;
         else if(x<y) yes;
         else cout<<"SAME"<<endl;
-
-
     }
     return 0;
 }
