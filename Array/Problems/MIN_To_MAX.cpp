@@ -13,8 +13,19 @@ int main(){
     ll t;
     cin>>t;
     while(t--){
-        
-
+        ll n;
+        cin>>n;
+        ll a[n], total = 0;
+        for(ll i=0;i<n;i++) {
+            cin>>a[i];
+        }
+        sort(a, a+n);
+        for(ll i=1;i<n;i++) {
+            if(a[i]> a[0]){
+                total++;
+            }
+        }
+        cout<<total<<endl;
 
     }
     return 0;
