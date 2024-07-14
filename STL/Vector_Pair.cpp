@@ -22,7 +22,8 @@ int main(){
     for(int i=1; i<=n; i++){
         int x, y;
         cin>>x>>y;
-        vp.push_back({x, y});
+        // vp.push_back({x, y});
+        vp.push_back(make_pair(x, y));
     }
     printVectorPair(vp);
 
