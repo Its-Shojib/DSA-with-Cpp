@@ -16,7 +16,7 @@ struct Single_Linked_List
 
 Single_Linked_List *head = NULL;
 
-void insert(int value){
+void insert_at_Begining(int value){
     Single_Linked_List *newNode = new Single_Linked_List();
     newNode-> data = value;
     newNode-> next = head;
@@ -36,17 +36,17 @@ int main(){
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     
     // Creating a Singly Linked List with 6 nodes
-    insert(0);
+    insert_at_Begining(0);
     printList();
-    insert(1);
+    insert_at_Begining(1);
     printList();
-    insert(2);
+    insert_at_Begining(2);
     printList();
-    insert(3);
+    insert_at_Begining(3);
     printList();
-    insert(4);
+    insert_at_Begining(4);
     printList();
-    insert(5);
+    insert_at_Begining(5);
     printList();
 
     return 0;
