@@ -12,7 +12,7 @@ int main(){
     string s,t;
     cin >> s >> t;
     reverse(s.begin(),s.end());
-    (s== t)? yes : no;
+    s== t? yes : no;
 
     return 0;
 }
