@@ -23,7 +23,6 @@ int main(){
         cin >> y;
         cout<<m[y]<<" "<<endl;
     }
-    
     // for(auto pr: m){
     //     cout<<pr.first<<" "<<pr.second<<endl;
     // }
