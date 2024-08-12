@@ -17,7 +17,5 @@ int main(){
         cout << q.front() <<endl;
         q.pop();
     }
-
-
     return 0;
 }
