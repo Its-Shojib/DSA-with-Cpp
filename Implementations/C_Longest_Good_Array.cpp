@@ -15,7 +15,6 @@ int main(){
         ll l,r;
         cin>>l>>r;
         ll number = r-l;
-
         ll ans = (-1+ sqrt(1+8*number))/2;
 
         cout<<ans+1<<endl;
