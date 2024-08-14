@@ -37,7 +37,6 @@ int main(){
         else {
             cout<<"2"<<endl;
         }
-        
     }
     return 0;
 }
