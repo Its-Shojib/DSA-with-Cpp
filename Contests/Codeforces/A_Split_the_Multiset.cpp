@@ -19,6 +19,7 @@ int main(){
             cout<<0<<endl;
             continue;
         }
+        
         k--;
         while(n>1){
             n=n-k;
