@@ -37,9 +37,8 @@ int main(){
 
     while (t--) {
         int n;
-        cin >> n;
-
         string s;
+        cin >> n;
         cin >> s;
 
         int result = minSegmentLength(n, s);
