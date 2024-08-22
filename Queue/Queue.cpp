@@ -27,7 +27,6 @@ void enQueue()
         Q[tail] = x;
     }
 }
-
 void Display()
 {
     if (front == -1)
