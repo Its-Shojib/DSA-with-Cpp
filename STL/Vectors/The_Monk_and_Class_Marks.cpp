@@ -9,7 +9,6 @@ using namespace std;
 #define no cout << "NO\n"
 vector <pair<ll, string>> vp;
 
-
 bool compareFn(pair<ll, string> vp, pair<ll, string> vp2){
     if(vp.first == vp2.first){
         return vp.second < vp2.second;
