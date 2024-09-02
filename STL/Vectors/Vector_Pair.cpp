@@ -22,7 +22,12 @@ int main(){
     for(int i=1; i<=n; i++){
         int x, y;
         cin>>x>>y;
+
         // vp.push_back({x, y});
+        // vp.push_back({y, x}); // This will create duplicate pairs in the vector. So, we can use set or unordered_set to avoid duplicates.
+        // unordered_set<pair<int, int>> s;
+        // s.insert({x, y});
+        // s.insert({y, x});
         vp.push_back(make_pair(x, y));
     }
     printVectorPair(vp);
