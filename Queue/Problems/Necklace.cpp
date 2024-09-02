@@ -41,7 +41,6 @@ int main()
             cin >> z;
             queue.push_back(z);
         }
-
         deQueue(queue, k);
         for(int i=0; i<x; i++){
             cout<<queue[i]<<" ";
