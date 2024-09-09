@@ -39,8 +39,5 @@ int main(){
         cout << s[i].first << " " << s[i].second << endl;
     }
 
-
-
-
     return 0;
 }
