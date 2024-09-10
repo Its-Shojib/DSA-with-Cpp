@@ -23,7 +23,7 @@ int main(){
 
     for(itt=vp.begin(); itt!=vp.end();++itt){
         // cout<<(*itt).first<<" "<<(*itt).second<<endl;
-        cout<<(itt->first)<<" "<<(itt->second)<<endl; //it will also work
+        cout<<(itt->first)<<" "<<(itt->second)<<endl;
     }
 
     for(int &value: v){ //we can also use reference by "&value"
