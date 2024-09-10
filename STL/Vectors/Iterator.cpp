@@ -13,6 +13,7 @@ int main(){
 
     vector<int> ::iterator it = v.begin();
     // cout<<(*it);
+    
     for(it=v.begin(); it!=v.end();it++){
         cout<<(*it)<<" ";
     }
