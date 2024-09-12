@@ -17,8 +17,7 @@ int main()
     {
         ll n;
         cin >> n;
-        if (n == 2002)
-        {
+        if (n == 2002){
             yes;
             break;
         }
