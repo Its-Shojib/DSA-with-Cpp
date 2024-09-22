@@ -41,7 +41,6 @@ string smallestWord(int encoded) {
         word[1] = word[2];
         word[2] = 'a';
     }
-
     // Handle single-letter cases more efficiently
     if (encoded == 1) {
         word = "a";
