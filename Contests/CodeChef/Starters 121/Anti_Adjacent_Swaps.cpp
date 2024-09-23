@@ -31,8 +31,7 @@ int main() {
             if(arr[1]<min(arr[2],arr[0]) || arr[1]>max(arr[2],arr[0])){
                 no;
             }else
-                yes;
-                
+                yes; 
             continue;
         }
         
